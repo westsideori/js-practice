@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Practice</title>
+    <meta name="description" content="Practice">
+    <meta name="author" content="OM">
+
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+</head>
+
+<body>
+    <h1>Players</h1>
+
+    <button id="toggle-create-player-form-button">Create Player</button>
+    <br><br>
+    <div id="create-player-box" style="display: none;">
+        <form id="create-player-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="number">Number:</label><br>
+            <input type="number" id="number" name="number"><br>
+            <label for="image">Image:</label><br>
+            <input type="text" id="img" name="image"><br><br>
+            <input type="submit" value="Add Player">
+        </form>
+    </div>
+    <br>
+    
+    <div id="search-players-area">
+        <form id="search-player-form">
+            <input type="text" id="search-name" name="search-name" placeholder="Enter Player Name">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    <br>
+    <div id="players-box">
+
+    </div>
+    <script defer src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "players": [
+    {
+      "name": "Aaron Judge",
+      "number": "99",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33192.png&w=350&h=254",
+      "id": 1
+    },
+    {
+      "name": "Gleyber Torres",
+      "number": "25",
+      "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33804.png&w=350&h=254",
+      "id": 2
+    }
+  ]
+}
